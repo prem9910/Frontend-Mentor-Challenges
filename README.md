@@ -10,7 +10,7 @@ These challenges have allowed me to enhance my HTML, CSS, and JavaScript skills 
 
 1. **QR code component**
    - Solution: [QR code component Solution](./qr-code-component/)
-   <!-- - Live Site: [QR code component Live Site](https://your-live-site-url.com) -->
+   - Live Site: [QR code component Live Site](https://your-live-site-url.com)
 
 <!-- Add more challenges as needed -->
 
@@ -20,7 +20,7 @@ Feel free to explore the challenges, review the code, and provide feedback. If y
 
 ## How to Use
 
-1. Clone the repository:
+1. Clone the repository: 
 
    ```bash
    git clone https://github.com/prem9910/Frontend-Mentor-Challenges.git
