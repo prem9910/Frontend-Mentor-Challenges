@@ -4,6 +4,18 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+      function ({ addUtilities }) {
+      const newUtilities = {
+        '.list-small': {
+          '--tw-marker-size': '0.5em',
+        },
+        '.list-large': {
+          '--tw-marker-size': '1em',
+        },
+      }
+      addUtilities(newUtilities)
+    }
+  ],
 }
 

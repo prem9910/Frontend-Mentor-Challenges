@@ -544,6 +544,19 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -556,6 +569,26 @@ video {
   min-height: 100vh;
 }
 
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.list-outside {
+  list-style-position: outside;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
@@ -564,19 +597,13 @@ video {
   justify-content: center;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-pink-200 {
@@ -584,6 +611,68 @@ video {
   background-color: rgb(251 207 232 / var(--tw-bg-opacity));
 }
 
-.p-5 {
-  padding: 1.25rem;
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-\[\#7b284f\] {
+  --tw-text-opacity: 1;
+  color: rgb(123 40 79 / var(--tw-text-opacity));
+}
+
+.text-\[\#854632\] {
+  --tw-text-opacity: 1;
+  color: rgb(133 70 50 / var(--tw-text-opacity));
+}
+
+.list-small {
+  --tw-marker-size: 0.5em;
+}
+
+.list-large {
+  --tw-marker-size: 1em;
+}
+
+.marker\:font-bold *::marker {
+  font-weight: 700;
+}
+
+.marker\:text-\[\#854632\] *::marker {
+  color: rgb(133 70 50 );
+}
+
+.marker\:font-bold::marker {
+  font-weight: 700;
+}
+
+.marker\:text-\[\#854632\]::marker {
+  color: rgb(133 70 50 );
 }
