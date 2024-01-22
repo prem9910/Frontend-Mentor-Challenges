@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./*.{html,js,php}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'young-serif': ['Young Serif', 'serif'],
+        'outfit': ['Outfit', 'sans-serif'],
+      },
+    },
   },
   plugins: [
       function ({ addUtilities }) {
