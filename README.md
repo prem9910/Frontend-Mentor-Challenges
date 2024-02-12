@@ -12,6 +12,14 @@ These challenges have allowed me to enhance my HTML, CSS, and JavaScript skills 
    - Solution: [QR code component Solution](./qr-code-component/)
    - Live Site: [QR code component Live Site](https://your-live-site-url.com)
 
+1. **Recipe Book**
+   - Solution: [Recipe Book Solution](./qr-code-component/)
+   - Live Site: [Recipe Book Live Site](https://your-live-site-url.com)
+
+1. **URL Shortening API**
+   - Solution: [URL Shortening API Solution](./qr-code-component/)
+   - Live Site: [URL Shortening API Live Site](https://your-live-site-url.com)
+
 <!-- Add more challenges as needed -->
 
 ## Usage
