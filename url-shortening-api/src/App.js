@@ -1,12 +1,19 @@
+import Advanced from "./components/Advanced"
+import Boost from "./components/Boost"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import Shortener from "./components/Shortener"
+import Showcase from "./components/Showcase"
 
-import './App.css';
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>URL Shortener Website</h1>
-    </div>
-  );
+    <>
+      <Header />
+      <Showcase />
+      <Shortener />
+      <Advanced />
+      <Boost />
+      <Footer />
+    </>
+  )
 }
-
-export default App;
