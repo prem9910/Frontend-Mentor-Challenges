@@ -24,7 +24,8 @@ export default function Shortener() {
       alert("Input is empty")
     } else {
       const shortenLink = async () => {
-        const res = await fetch(`https://api.shrtco.de/v2/shorten?url=${text}`)
+        // const res = await fetch(`https://api.shrtco.de/v2/shorten?url=${text}`)
+        const res = await fetch(`https://api.rebrandly.com/v1/${text}`)
         const data = await res.json()
         console.log(data.result)
         setLinks(data.result)
