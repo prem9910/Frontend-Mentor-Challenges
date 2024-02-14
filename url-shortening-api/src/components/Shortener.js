@@ -19,7 +19,7 @@ export default function Shortener() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-
+    console.log(e)
     if (!text) {
       alert("Input is empty")
     } else {
